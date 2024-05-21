@@ -5,8 +5,8 @@
 
 int main()
 {
-    int buf[10];
-    buf[10] = 0; // <- ERROR
+    int buf[1000];
+    //buf[10] = 0; // <- ERROR
     
     std::cout << "Hello World!\n";
 }
