@@ -5,8 +5,10 @@
 
 int main()
 {
-    int buf[1000];
-    //buf[10] = 0; // <- ERROR
+     string myString = "Hello";
+     myString[0] = 'J';
+     cout << myString;
+     return 0;
     
     std::cout << "Hello World!\n";
 }
