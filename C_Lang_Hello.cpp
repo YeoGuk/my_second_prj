@@ -18,7 +18,7 @@ typedef struct   // 구조체 이름 생략 가능
     int accID;    // 계좌 번호
     int balance;  // 잔액
     char cusName[NAME_LEN];  // 고객 이름
-} CCOUNT;
+} ACCOUNT;
 
 
 ACCOUNT account[MAX_CUS_NUM];  // 계좌 처리를 위한 배열
